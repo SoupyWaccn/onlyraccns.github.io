@@ -1,0 +1,172 @@
+body{
+    overflow-x: hidden;
+    margin: 0%;
+}
+.col1{
+    width: 28%; 
+    height: 99%; 
+    position: absolute;
+}
+.col2{
+    width: 60%; 
+    margin-left: 28%; 
+    height: 99%; 
+    position: absolute;
+    border: 1px solid lightgray;
+}
+.col3{
+    width: 12%; 
+    margin-left: 88%; 
+    height: 99%; 
+    position: absolute;
+}
+.profile-wrapper{
+    position: relative;
+    height: 380px;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+.banner{
+    height: 180px;
+}
+.g-icon{
+    position: absolute;
+    float: right;
+    top: 10px;
+    right:2%;
+    height: 15px;
+}
+.g-icon:hover{
+    cursor:pointer;
+    height: 15px;
+}
+.profile-img{
+    position: absolute;
+    float: left;
+    top: 145px;
+    left: 17px;
+    height: 100px;
+    border: 3px solid white;
+    border-radius: 100%;
+}
+.profile-img:hover{
+    cursor: pointer;
+}
+.profile-name{
+    position: relative;
+    top:67px;
+    left:20px;
+    font-size: large;
+    font-weight:600;
+    font-family: sans-serif;
+    color:rgb(37, 37, 37);
+}
+.profile-tag{
+    position: relative;
+    font-size: 14px;
+    top:52px;
+    left:20px;
+    font-family: sans-serif;
+    color:rgb(170, 170, 170);
+}
+.profile-note{
+    position: relative;
+    top:54px;
+    left:20px;
+    font-family: sans-serif;
+    color:rgb(22, 22, 22);
+}
+.profile-info{
+    position: relative;
+    font-size: 14px;
+    top:46px;
+    left:20px;
+    font-family: sans-serif;
+    color:#00aff0;
+}
+.profile-info:hover{
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+.profile-border{
+    background-color:#f6f7f8;
+    height: 10px;
+    width:100%;
+}
+.posts-title{
+    float:left;
+}
+.media-title{
+    float:right;
+}
+.posts-button{
+    height: 50px;
+    width: 50%;
+    position: absolute;
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 18px;
+    font-size: small;
+    font-weight: 900;
+    color:rgb(56, 56, 56);
+}
+.posts-button:hover{
+    
+    cursor: pointer;
+}
+.media-button{
+    float:right;
+    height: 50px;
+    width: 50%;
+    position: relative;
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 18px;
+    font-size: small;
+    font-weight: 900;
+    color:lightgray;
+}
+.profile{
+    position: absolute;
+    float: right;
+    height: 30px;
+    width: 267px;
+    top:30px;
+    right: 0px;
+}
+.home-button{
+    position: absolute;
+    float: right;
+    height: 50px;
+    width: 265px;
+    top:85px;
+    right: 0px;
+}
+.more-button{
+    position: absolute;
+    float: right;
+    height: 50px;
+    width: 265px;
+    top:140px;
+    right: 0px;
+}
+.col1-buttons-text{
+    position: absolute;
+    float: right;
+    right: 168px;
+    padding: 0%;
+    margin: 0%;
+    width: 50px;
+    bottom: 27px;
+    font-family: sans-serif;
+    color: darkgray;
+    font-weight: 700;
+    font-size: larger;
+}
+.empty-feed{
+    position: relative;
+    top: 35px;
+    width: 62%;
+    left:18.5%;
+}
